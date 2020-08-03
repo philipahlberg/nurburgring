@@ -1,0 +1,39 @@
+{
+  "name": "nurburgring",
+  "version": "0.0.0",
+  "author": "Philip Ahlberg <philipahlberg@users.noreply.github.com>",
+  "description": "A racing Promise-iterator",
+  "license": "MIT",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "homepage": "https://github.com/philipahlberg/nurburgring#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipahlberg/nurburgring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philipahlberg/nurburgring/issues"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "windtunnel test tests/index.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@types/node": "^14.0.27",
+    "@windtunnel/assert": "^0.2.0",
+    "@windtunnel/cli": "^0.2.0",
+    "rollup": "^2.23.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}
