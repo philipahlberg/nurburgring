@@ -1,6 +1,6 @@
 {
   "name": "nurburgring",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Philip Ahlberg <philipahlberg@users.noreply.github.com>",
   "description": "A racing Promise-iterator",
   "license": "MIT",
